@@ -14,12 +14,19 @@ The provided PowerShell script is an example of how to automate this process.  I
 In order to use the script in your environment, you will need to change several of the variables:
 
 $Airgapped_Hostname = hostname of air-gapped machine
+
 $Username = username that will be executing the script
+
 $Path_FTA_Tools = path to where the FTACmdUtility.exe file is located - typically c:\Program Files (x86)\Rockwell Software\FactoryTalk Activation\Tools
+
 $Path_FTA_Desktop = location where the various folders and files will be stored during the process - by default, this is the Desktop of the user executing the script
+
 $Rehost_Serial_Number = FTA serial number being rehosted
+
 $Rehost_Product_Key = FTA product key for the serial number being rehosted
+
 $Rehost_Quantity = number of V-FLEX licenses to be rehosted
+
 
 If your ThinManager deployment utilizes Redundancy, you will need to execute this script on both the Primary ThinManager Server and the Secondary ThinManager Server, changing the $Rehost_Serial_Number, $Rehost_Product_Key, and $Rehost_Quantity variables accordingly for both.
 
