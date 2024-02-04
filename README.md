@@ -12,10 +12,10 @@ maximum version of ThinManager to which your license is entitled, and the expira
 been updated since your initial activation, you will need to update the FTA license (i.e.:  if you upgraded ThinManager from one major version to another
 (from v12 to v13), or if you have renewed your subscription, you will need to update the license that is installed).
 
-Updating an existing FTA license is a 2-step process.  First, you must return the license hosted on your machine to the Rockwell Activation servers.  This process
-is referred to as a REHOST.  Second, you must get the updated license (with the latest entitlement details) from the Rockwell Activation servers and re-apply it to your machine.  
-Performing this process manually in an air-gapped deployment requires some additional steps in order to move the necessary files from the air-gapped machine to your
-Internet connected machine, and then back again.  While not terribly difficult, the process can be time-consuming, especially if you are updating a number of FTA licenses 
+Updating an existing FTA license on an air-gapped machine is a 2-step process.  First, you must return the license hosted on your machine to the Rockwell Activation servers.  
+This process is referred to as a REHOST.  Second, you must get the updated license (with the latest entitlement details) from the Rockwell Activation servers and re-apply 
+it to your machine.  Performing this process manually in an air-gapped deployment requires some additional steps in order to move the necessary files from the air-gapped machine 
+to your Internet connected machine, and then back again.  While not terribly difficult, the process can be time-consuming, especially if you are updating a number of FTA licenses 
 in your Enterprise.
 
 The provided PowerShell script is an example of how to automate this process.  It is intended to be run from an Internet-connected machine that also has connectivity
