@@ -30,5 +30,7 @@ $Rehost_Quantity = number of V-FLEX licenses to be rehosted
 
 If your ThinManager deployment utilizes Redundancy, you will need to execute this script on both the Primary ThinManager Server and the Secondary ThinManager Server, changing the $Rehost_Serial_Number, $Rehost_Product_Key, and $Rehost_Quantity variables accordingly for both.
 
+It should also be noted that currently an FTA license has a maximum number of REHOSTS of 5.  You can request increasing this number through Rockwell technical support.  For testing purposes, you can also request a temporary activation instead of working with production licenses.
+
 
 
